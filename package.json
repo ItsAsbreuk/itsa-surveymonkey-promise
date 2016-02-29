@@ -1,0 +1,50 @@
+{
+  "name": "itsa-surveymonkey-promise",
+  "version": "0.0.1",
+  "description": "Promise wrapper arround the surveymokey api",
+  "author": [
+    {
+      "name": "Marco Asbreuk",
+      "email": "marco@itsasbreuk.nl"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ItsAsbreuk/itsa-surveymonkey-promise"
+  },
+  "bugs": {
+    "url": "https://github.com/ItsAsbreuk/itsa-surveymonkey-promise/issues"
+  },
+  "keywords": [
+    "itsasbreuk",
+    "itsa",
+    "surveymonkey",
+    "promise"
+  ],
+  "main": "./lib/surveymonkey.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "itsa-classes": "^1.0.3",
+    "surveymonkey": "0.0.7"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "eslint": "^1.10.3",
+    "mocha": "^1.21.4"
+  },
+  "scripts": {
+    "lint": "eslint ./lib/*.js"
+  },
+  "maintainers": [
+    {
+      "name": "Marco Asbreuk",
+      "email": "marco@itsasbreuk.nl"
+    }
+  ],
+  "license": "BSD-3-Clause"
+}
