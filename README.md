@@ -47,7 +47,7 @@ var SurveyMonkeyApi = require("itsa-surveymonkey-promise");
 var apiKey = 'Your SurveyMonkey API Key';
 var accessToken = 'Your SurveyMonkey App Access Token';
 
-surveyMonkey = new SurveyMonkeyApi(apiKey, accessToken, { secure : true });
+var surveyMonkey = new SurveyMonkeyApi(apiKey, accessToken, { secure : true });
 
 surveyMonkey.getSurveyList({ title: "Some Title", page_size: 25 }).then(
     function(data) {
